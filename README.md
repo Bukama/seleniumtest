@@ -27,5 +27,11 @@ Those things include:
   * How is this done in general?
   * Do projects even do this or do they "just" write tests?
 
+# Pages used for testing
+
+There are several sites out there, which you can use to for testing, e.g. to learn _Selenium_.
+I chose to use [http://the-internet.herokuapp.com/](http://the-internet.herokuapp.com/), I found in the [Top 7 Websites to Practice Selenium Webdriver Online](https://www.techbeamers.com/websites-to-practice-selenium-webdriver-online/) collection, as I have seen this page in several tutorials.
+It offers a large variation of sites to test different aspects of _Selenium_.
+
 
 
