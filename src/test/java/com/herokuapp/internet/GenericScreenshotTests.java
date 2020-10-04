@@ -10,6 +10,8 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
+
+@SetSystemProperty(key = "sel.jup.default.browser", value = "chrome")
 @SetSystemProperty(key = "sel.jup.screenshot.at.the.end.of.tests", value = "true")
 @SetSystemProperty(key = "sel.jup.screenshot.format", value = "png")
 @SetSystemProperty(key = "sel.jup.output.folder", value = "./output/")
@@ -19,7 +21,7 @@ public class GenericScreenshotTests {
 	static final String URL = "http://the-internet.herokuapp.com/";
 
 	@Test
-	void screenshotTest(ChromeDriver driver) {
+	void screenshotTest(WebDriver driver) {
 
 		driver.get(URL);
 
