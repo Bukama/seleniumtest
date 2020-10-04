@@ -34,4 +34,10 @@ I chose to use [http://the-internet.herokuapp.com/](http://the-internet.herokuap
 It offers a large variation of sites to test different aspects of _Selenium_.
 
 
+# Screenshots
 
+_Selenium-Jupiter_ provides built in [functionality for screenshots](https://bonigarcia.github.io/selenium-jupiter/#screenshots).
+The functionality must be activated using system properties.
+The _JUnit Pioneer extension pack_ provides an [extension to set system properties](https://junit-pioneer.org/docs/system-properties/).
+
+When this is used the `@SetSystemProperty` annotation must be used on class level (and not on test level!) to work with _Selenium Jupiter_.

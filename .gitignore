@@ -50,3 +50,7 @@ local.properties
 # Maven
 */target/*
 target
+
+
+# Pics of Selenium
+/output/*.png
