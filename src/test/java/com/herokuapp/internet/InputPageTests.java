@@ -4,6 +4,7 @@ import com.herokuapp.internet.po.InputsPagePO;
 import com.herokuapp.internet.po.LandingPagePO;
 import io.github.bonigarcia.seljup.DockerBrowser;
 import io.github.bonigarcia.seljup.SeleniumJupiter;
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.openqa.selenium.WebDriver;
@@ -20,6 +21,7 @@ public class InputPageTests {
 
 	static final String URL = "http://the-internet.herokuapp.com/";
 
+	@Disabled
 	@Test
 	void navigateToInputPageIntenretExplorer(InternetExplorerDriver driver) {
 
